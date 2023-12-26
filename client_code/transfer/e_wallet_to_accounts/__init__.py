@@ -91,8 +91,9 @@ class e_wallet_to_accounts(e_wallet_to_accountsTemplate):
                 if selected_symbol == '₹':
                     money_inr_equivalent = main_money - money_value * 1
                     if float(fore_money['e_money']) < float(money_value) or money_inr_equivalent < 0:
+                      print("deducting mmoney_inr")
                       proof = "failed"
-                      alert("Insufficient funds")
+                      self.label_3.text = "Insufficient funds"
                     else:
                       money_inr_equivalent_string = str(money_inr_equivalent)
                       user_currency['money_inr'] = str(float(user_currency['money_inr']) + money_value)
