@@ -153,3 +153,6 @@ class auto_top_up(auto_top_upTemplate):
   def link_13_click(self, **event_args):
     """This method is called when the link is clicked"""
     open_form("Home")
+
+  def button_3_click(self, **event_args):
+    open_form('transfer')

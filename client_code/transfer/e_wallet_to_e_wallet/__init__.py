@@ -162,3 +162,6 @@ class e_wallet_to_e_wallet(e_wallet_to_e_walletTemplate):
       """This method is called when the link is clicked"""
       open_form("Home")
 
+    def button_3_click(self, **event_args):
+      open_form('transfer')
+
