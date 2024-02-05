@@ -10,7 +10,7 @@ import uuid
 @anvil.server.callable
 def validate_login(username, password):
     # Query the 'users' table
-    user = tables.app_tables.users.get(username=username, password=password)
+    user = app_tables.users.get(username=username, password=password)
 
     if user:
         return user['usertype']
