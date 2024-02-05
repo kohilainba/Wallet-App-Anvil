@@ -1,9 +1,6 @@
 from ._anvil_designer import ViewprofileTemplate
 from anvil import *
 import anvil.users
-import anvil.tables as tables
-import anvil.tables.query as q
-from anvil.tables import app_tables
 from anvil import alert, open_form
 import re
 

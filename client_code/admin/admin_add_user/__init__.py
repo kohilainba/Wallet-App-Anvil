@@ -2,9 +2,6 @@ from ._anvil_designer import admin_add_userTemplate
 from anvil import *
 import anvil.users
 import anvil.server
-import anvil.tables as tables
-import anvil.tables.query as q
-from anvil.tables import app_tables
 import re
 
 class admin_add_user(admin_add_userTemplate):

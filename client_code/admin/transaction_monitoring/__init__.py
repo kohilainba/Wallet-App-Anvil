@@ -2,9 +2,6 @@ from ._anvil_designer import transaction_monitoringTemplate
 from anvil import *
 import anvil.users
 import anvil.server
-import anvil.tables as tables
-import anvil.tables.query as q
-from anvil.tables import app_tables
 
 class transaction_monitoring(transaction_monitoringTemplate):
     def __init__(self, **properties):

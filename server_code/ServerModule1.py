@@ -1,7 +1,4 @@
 import anvil.users
-import anvil.tables as tables
-import anvil.tables.query as q
-from anvil.tables import app_tables
 from datetime import datetime, timedelta
 import anvil.server
 from anvil import tables, app

@@ -2,9 +2,6 @@ from ._anvil_designer import show_usersTemplate
 from anvil import *
 import anvil.users
 import anvil.server
-import anvil.tables as tables
-import anvil.tables.query as q
-from anvil.tables import app_tables
 
 class show_users(show_usersTemplate):
     def __init__(self, **properties):

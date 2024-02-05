@@ -2,9 +2,6 @@ from ._anvil_designer import account_managementTemplate
 from anvil import *
 import anvil.users
 import anvil.server
-import anvil.tables as tables
-import anvil.tables.query as q
-from anvil.tables import app_tables
 
 class account_management(account_managementTemplate):
   def __init__(self, user= None, **properties):
